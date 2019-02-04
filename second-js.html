@@ -1,0 +1,24 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>second js</title>
+    </head>
+    <body>
+    <script>
+        var cachorro = {
+            nome : "flora",
+            raca : "srd",
+            cor : "branca",
+            proprietario : "fco edson",
+            acao : function(){
+                return "Nome: " + this.nome  + " | Proprietário: " +  this.proprietario;
+            }
+        }
+
+    </script>
+    <button type="button" onclick="document.getElementById('texto').innerHTML= cachorro.acao()">Clique aqui.</button>
+        <h2 id='texto'></h2>
+    </body>
+
+</html>

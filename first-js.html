@@ -1,0 +1,31 @@
+<html>
+    <head><title>first js - brincando com elementos HTML</title></head>
+    <body>
+
+    <section>
+        <!--Quando eu clico no botão o evento de clique 'onclick' efetua a  ação.-->
+        <button type="button" onclick="document.getElementById('demo1').innerHTML = Date()">Veja a data e hora clicando aqui.</button>
+        <br><p id="demo1"></p>
+    </section>
+    <br>
+    <section>
+        <button type="button" onclick="document.getElementById('demo2').style.fontSize='25px'">Clique-me para aumentar o tamanho da fonte.</button>
+        <br><p id="demo2">Seja bem vindo!</p>
+    </section>
+    <br>
+    <section>
+        <button type="button" onclick="document.getElementById('demo3').style.display='none'">Clique-me para esconder.</button>
+        <br><p id="demo3">Seja bem vindo!</p>
+    </section>
+    <br>
+    <section>
+        <button type="button" onclick="document.getElementById('demo4').style.display='block'">Clique-me para mostrar.</button>
+        <br><p id="demo4" style="display:none">Seja bem vindo!</p>
+    </section>
+    <br>
+    <section>
+        <button type="button" onclick="document.getElementById('eat').src='images/gato-eat-pizza.jpeg'" >clique aqui para alimentar o gatinho.</button>
+        <br><img src="images/gato-no-eat.png" id="eat" style='width:100px'>
+    </section>
+    </body>
+</html>
